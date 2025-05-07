@@ -17,7 +17,7 @@ st.set_page_config(page_title="K-Means Clustering Viewer", layout="centered")
 st.title("📊 K-Means Clustering Visualizer")
 
 # Sidebar options
-st.sidebar.header("🔧 Options")
+st.sidebar.header("Options")
 selected_cluster = st.sidebar.slider("Highlight Cluster", min_value=0, max_value=num_clusters - 1, value=0)
 
 # Generate synthetic data with correct number of features

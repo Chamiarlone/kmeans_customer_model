@@ -14,7 +14,7 @@ n_features = loaded_model.cluster_centers_.shape[1]
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="K-Means Clustering Viewer", layout="centered")
-st.title("📊 K-Means Clustering Visualizer by Chalermchai Nichee")
+st.title("📊 K-Means Clustering Visualizer")
 
 # Sidebar options
 st.sidebar.header("🔧 Options")

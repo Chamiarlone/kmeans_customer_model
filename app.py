@@ -5,7 +5,7 @@ from sklearn.datasets import make_blobs
 import numpy as np
 
 # Load model
-with open('/mnt/data/kmeans_customer_model.pkl', 'rb') as f:
+with open('kmeans_customer_model.pkl', 'rb') as f:
     loaded_model = pickle.load(f)
 
 # Infer required feature count from cluster centers

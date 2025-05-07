@@ -35,8 +35,8 @@ ax.scatter(X[:, 0], X[:, 1], c=colors, s=50, alpha=0.7, label='Data Points')
 ax.scatter(loaded_model.cluster_centers_[:, 0], loaded_model.cluster_centers_[:, 1],
            s=300, c='red', marker='X', label='Centroids')
 
-ax.set_xlabel("Feature 1")
-ax.set_ylabel("Feature 2")
+ax.set_xlabel("Age")
+ax.set_ylabel("Spending Score")
 ax.set_title(f"Cluster View: Highlighting Cluster {selected_cluster}")
 ax.legend()
 st.pyplot(fig)

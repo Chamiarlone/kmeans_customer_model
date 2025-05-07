@@ -41,6 +41,3 @@ ax.set_title(f"Cluster View: Highlighting Cluster {selected_cluster}")
 ax.legend()
 st.pyplot(fig)
 
-# Optional note if the model has more than 2 features
-if n_features > 2:
-    st.warning(f"Note: Your model was trained on {n_features} features. Only the first 2 features are visualized here.")

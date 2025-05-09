@@ -13,10 +13,10 @@ num_clusters = loaded_model.n_clusters
 n_features = loaded_model.cluster_centers_.shape[1]
 
 # Set Streamlit page configuration
-st.set_page_config(page_title="Segmentation K-Means App", layout="centered")
+st.set_page_config(page_title="Project2_Group06", layout="centered")
 
 # Title
-st.title("📊 Customer Segmentation using K-Means")
+st.title("📊 Project2_Group06")
 
 # Sidebar options
 st.sidebar.header("Options")
